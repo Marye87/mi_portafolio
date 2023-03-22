@@ -1,0 +1,53 @@
+.mat-card {
+    border-radius: 15px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: #05f12c;
+}
+
+.mat-card#first-card {
+    padding: 15px;
+}
+
+.profile-background {
+    display: flex;
+    z-index: 1;
+    
+}
+.profile-image {
+    border-radius: 15%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    z-index: 1;
+}
+
+div#profile-background img {
+width: 100%;
+border-radius: 32px 32px 32px 32px;
+}
+
+
+div#info-actions {
+display: flex;
+}
+#info-img{
+    display: flex;
+}
+.btn-right{
+    display: flex;
+    align-self: flex-end;
+}
+.fa-button,.fa{
+    color: black;
+    display: block;
+    height: 2.4rem;
+    width: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+}
+.fa-button:hover,.fa:hover{
+    background: gray;
+}

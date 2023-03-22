@@ -1,0 +1,82 @@
+{
+     "name" : "Mariela  Vallejos",
+       "backImage" : "portada.jpg",
+       "image" : "yo.jpg",
+       "position" : "Docente",
+      "company" : {
+        "name" : "Escuela",
+        "img" : "",
+        "url" : "#"
+    },
+
+    "school" : {
+        "name" : "escuela",
+        "img" : "",
+        "url" : "#"
+    },
+     
+    "ubication" : "Sauce Arriba, Córdoba (Argentina)",
+    "about" : "Maestra incurcionando en la programacion y el pensamiento computacional",
+    "experience" : [{
+        "position" : "Docente",
+        "company" : "Lisandro de la Torre",
+        "img" : "",
+        "mode" : "un turno",
+        "star" : "marzo 2016",
+        "end" : "marzo 2017",
+        "timeElapsed" : "1 año"
+    }],
+    "education" : [{
+        "school" : "Maria Auxiliadora",
+        "title" : "Profesora de EGB 1 y 2",
+        "img" : "",
+        "carrer" : "Docente",
+        "score" : "4",
+        "star" : "2006",
+        "end" : "2009"
+    },
+    {
+        "school" : "unipe",
+        "title" : "Licenciada en Enseñanza de la lectura y la escritura para la educación primaria",
+        "img" : "",
+        "carrer" : "Licenciada",
+        "score" : "0",
+        "star" : "2022",
+        "end" : "2025"
+    },
+    {
+    "school" : "Sagrada Familia",
+    "title" : "Educacion Polimodal",
+    "img" : "",
+    "carrer" : "Ciencias Naturales",
+    "score" : "0",
+    "star" : "2002",
+    "end" : "2004"
+    }
+    ],
+     "aptitudes" : [{
+          "name" : "maneejo de grupo",
+          "progress" : 5,
+          "confirms" : 1,
+          "confirmsName" : [{
+             "name" : "provincia del chaco"
+             }]
+
+             },
+             { 
+             "name" : "...",
+              "confirms" : 2,
+             "confirmsName" : [{
+              "name" : "provincia del chaco"
+              }]
+
+              }    
+            ],
+    "achivenments" : [{
+    "name" : "grados"
+     },
+     {
+    "name" : "grado"
+}
+]
+}
