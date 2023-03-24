@@ -9,6 +9,9 @@ import { AptitudesValidacionesComponent } from './components/aptitudes-validacio
 import { LogrosComponent } from './components/logros/logros.component';
 import { PortafolioService } from './sevicios/portafolio.service'
 import { HttpClientModule } from '@angular/common/http';
+import { RegistroComponent } from './components/registro/registro.component';
+import { BotonComponent } from './components/boton/boton.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { HttpClientModule } from '@angular/common/http';
     AcercaDeComponent,
     ExperienciaComponent,
     AptitudesValidacionesComponent,
-    LogrosComponent
+    LogrosComponent,
+    RegistroComponent,
+    BotonComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,

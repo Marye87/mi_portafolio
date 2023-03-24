@@ -1,0 +1,7 @@
+/**permite que los botones y el texto aparescan de forma alineada*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}

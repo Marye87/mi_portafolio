@@ -1,39 +1,72 @@
-<h1>Portafolio</h1>
-<header>
-    <div> 
+<header class="conteiner">
+  <h1>{{title}}</h1>
+  <button><i class="fa-brands fa-facebook"></i></button>
+  <i class="fa-brands fa-linkedin"></i>
+  <i class="fa-brands fa-github"></i>
+  <i class="fa-brands fa-discord"></i>
+  <i class="fa-brands fa-whatsapp"></i>
+
+   <app-boton
+    color="green" 
+    text="resgistro"
+    (btnClick)="toggleRegistro"
+    ></app-boton>
+    </header>
+
+
+  <div>
      <!--<div class="card mat-card"  id="first-card">-->
-    <div id="profile-background"><img [src]="miPortafolio.backImage"></div> <!--una imagen encabezado-->
+    <div id="profile-background">
+      <img [src]="miPortafolio.backImage"> 
+    </div> <!--una imagen encabezado-->
     <!--<div id="info" style="padding: 0px">
-    </div>--></div>
-   </header>
-   <div class="card mat-card" id="first-card"> 
-     <div id="info-img">
-       <img class="profile-image" [src]="miPortafolio.Image"> <!--imagen-->
-       <div class="btn-edit"><a href="#" class="bnt-right"><i class="fa fa-pen"></i></a></div>
-     </div>
+    </div>-->
+  </div> <!--imagen portada-->
+
+
+   <div class="card mat-card" id="first-card">
+    <div id="info-img">
+       <img class="profile-image" [src]="miPortafolio.image">
+        <!--imagen yo-->
+    
+       <div class="btn-edit">
+        <a href="#" class="bnt-right"><i class="fa fa-pen"></i></a>
+      </div>
+    </div>
+
       <div id="info-data">
-       <div class="row">
-      <div class ="col-sm-8"><h1>{{miPortafolio.name}}</h1>
-      <div id="info-company">{{miPortafolio.position}}</div>
-      <div id="info-contact"><span>Sauce Arriba, Córdoba, Argentina</span><br>
-       <span><a href="#">Información de contacto</a></span>
+        <div class="row">
+          <div class ="col-sm-8">
+              <h1>{{miPortafolio.name}}</h1>
+            <div id="info-company">{{miPortafolio.position}}
+            </div>
+            <div id="info-contact"><span>{{miPortafolio.ubication}}</span><br>
+            </div>
+              <span><a href="#">Información de contacto</a></span>
+          </div>
+              
+          <div class="col-sm">
+           <ul id="info-details">
+              <li><a herf="#">
+               <img src=""> <!--escudo-->
+               <h5>CONICET</h5></a> 
+              </li>
+              <li><a herf="#">
+                <img src=""> <!--logo-->
+                <h5>UNIVERSIDAD BUENOS AIRES</h5></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+      <div id="info-actions">
+        <button class="btn btn-primary" type="button">Tengo interés en</button>
+        <button class="btn btn-light" type="button">Añadir Sección</button>
+        <button class="btn btn-light" type="button">Más</button>
       </div>
-      </div>
-      <div class="col-sm-4">
-        <ul id="info-details">
-          <li><a herf="#">
-          <img src=""> <!--escudo-->
-          <h5>CONICET</h5></a> </li>
-          <li><a herf="#">
-          <img src=""> <!--logo-->
-          <h5>UNIVERSIDAD BUENOS AIRES</h5></a></li>
-        </ul>
-     </div>
-   </div>
-  </div>
-   <div id="info-actions">
-      <button class="btn btn-primary" type="button">Tengo interés en</button>
-      <button class="btn btn-light" type="button">Añadir Sección</button>
-      <button class="btn btn-light" type="button">Más</button>
-   </div>
+    </div>
+
+   
+   
+   
    

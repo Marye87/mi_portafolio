@@ -1,14 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { PortafolioService } from 'src/app/sevicios/portafolio.service';
 
-
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit{
+
+export class HeaderComponent implements OnInit {
+  
   miPortafolio:any;
+    
+  title: string = "Mi_App"; 
 
   constructor(private datosPortafolio:PortafolioService) { }
 
@@ -17,5 +20,8 @@ export class HeaderComponent implements OnInit{
       console.log(data);
     this.miPortafolio=data;
     });
+  }
+  toggleRegistro(){
+    console.log()
   }
 }
