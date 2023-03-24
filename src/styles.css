@@ -44,6 +44,19 @@ display: flex;
 .info-img{
     display: flex;
 }
+.btn-primary {
+    display: inline-block;
+    background: rgb(10, 0, 0)(0, 0, 0, 0.952);
+    color: rgb(23, 236, 3);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}
 
 .btn-right{
     display: flex;
@@ -89,19 +102,7 @@ body{
     border-radius: 5px;
 }
 
-.btn {
-    display: inline-block;
-    background: #000;
-    color: rgb(23, 236, 3);
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: inherit;
-}
+
 .btn:focus {
     outline: none;
 }

@@ -21,7 +21,7 @@ export class HeaderComponent implements OnInit {
     this.miPortafolio=data;
     });
   }
-  toggleRegistro(){
+  toggleRegistrece(){
     console.log()
   }
 }
