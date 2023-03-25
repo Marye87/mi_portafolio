@@ -63,17 +63,17 @@ display: flex;
     align-self: flex-end;
 }
 .fa-button,.fa{
-    color: black;
+    color: rgb(3, 145, 50);
     display: block;
     height: 2.4rem;
     width: 2.4rem;
     line-height: 2.4rem;
     text-align: center;
     border-radius: 50%;
-    background: white;
+    background: whit;
 }
 .fa-button:hover,.fa:hover{
-    background: gray;
+    background: rgb(143, 5, 5);
 }
 
 

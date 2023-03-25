@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModuleTsComponent } from './app-routing.module.ts/app-routing.module.ts.component';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -12,6 +13,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { RegistroComponent } from './components/registro/registro.component';
 import { BotonComponent } from './components/boton/boton.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
+import { FormsModule } from '@angular/forms';
+import { AboutComponent } from './components/about/about.component';
+
+
 
 
 @NgModule({
@@ -24,12 +29,17 @@ import { EducacionComponent } from './components/educacion/educacion.component';
     LogrosComponent,
     RegistroComponent,
     BotonComponent,
-    EducacionComponent
+    EducacionComponent,
+    AboutComponent,
+    AppRoutingModuleTsComponent,
+  
   ],
+  
   imports: [
     BrowserModule,
-    HttpClientModule
-    //AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+	  
   ],
   providers: [PortafolioService],
   bootstrap: [AppComponent]

@@ -13,15 +13,16 @@ export class HeaderComponent implements OnInit {
     
   title: string = "Mi_App"; 
 
-  constructor(private datosPortafolio:PortafolioService) { }
+  constructor(
+    private datosPortafolio:PortafolioService) { }
 
   ngOnInit(): void {
     this.datosPortafolio.obtenerDatos().subscribe(data =>{
       console.log(data);
-    this.miPortafolio=data;
+    this.miPortafolio = data;
     });
   }
   toggleRegistrece(){
-    console.log()
+    this.miPortafolio.service.toggleRegistrece();
   }
 }

@@ -25,7 +25,17 @@
         "star" : "marzo 2016",
         "end" : "marzo 2017",
         "timeElapsed" : "1 año"
-    }],
+    },
+    {
+        "position" : "Docente",
+        "company" : "Provincia del Chaco",
+        "img" : "",
+        "mode" : "un turno",
+        "star" : "marzo 2010",
+        "end" : "marzo 2013",
+        "timeElapsed" : "2 año"
+    }
+],
     "education" : [{
         "school" : "Maria Auxiliadora",
         "title" : "Profesora de EGB 1 y 2",
